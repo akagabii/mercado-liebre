@@ -38,6 +38,7 @@ header{
     line-height: 50px;
     margin-top: 20px;
     margin: auto auto;
+    
 }
 
 
@@ -62,6 +63,7 @@ ul {
     background-color: #ebebeb;
     text-align: center;
     margin-left: 20px;
+    border: solid 3px black;
 }
 
 .home__header--logo{
