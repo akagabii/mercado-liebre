@@ -19,6 +19,10 @@ header{
     font-size: 12px;
 }
 
+.home__header__nav{
+    display: none;
+}
+
 
 .burger-menu{
     font-size: 25px;
@@ -54,4 +58,13 @@ header{
 
 .home__header__nav{
     font-size: 12px;
+}
+
+@media (min-width:361px) {
+    .home__header__nav{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
 }
