@@ -1,0 +1,10 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259C3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #EBEBEB;
+    --Verde: #39B54A;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
