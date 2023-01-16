@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -219,12 +220,29 @@ h3{
     width: 80%;
     background-color: white;
     margin-top: 12px;
+    transition: all 1s;
 }
 
 .produc:hover{
-    
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px 5px var(--Gris-oscuro);
 }
+
+.produc h4{
+    color: var(--Gris-oscuro);
+    font-weight: 300;
+    margin: 0;
+    height: 0px;
+    width: 100%;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.produc:hover h4{
+    height: 50px;
+    margin-top: 30px;
+}
+
+
 
 .produc img{
     width: 100%;
@@ -252,7 +270,7 @@ h3{
     padding: 0px 0px 0px 14px;
 }
 
-.fa-truck{
+.produc i{
     color: #39b54a;
     font-size: 16px;
     border-radius: 50%;
@@ -261,16 +279,21 @@ h3{
     position: absolute;
     right: 20px;
     bottom: 85px;
+    transition: 1s;
+}
+
+.produc:hover i{
+    transform: rotate(-360deg);
 }
 
 .freet{
-    display: flex;
     background-color: white;
     font-size: 18px;
     text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+    
 }
 
 .descrip{
@@ -579,5 +602,27 @@ footer{
     
     .produc{
         width: 24%;
+    }
+
+    .Section-footer{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .freet{
+        background-color: white;
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        width: 33%;
+        padding-bottom: 40px;
+        
+    }
+    
+    .copyright{
+        position: absolute;
+        bottom: -400px;
     }
 }
