@@ -207,7 +207,10 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
+
+
 
 .produc{
     margin-bottom: 10px;
@@ -216,6 +219,11 @@ h3{
     width: 80%;
     background-color: white;
     margin-top: 12px;
+}
+
+.produc:hover{
+    
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .produc img{
@@ -340,8 +348,6 @@ footer{
 
 
 }
-
-
 
 @media(min-width: 768px){
 
